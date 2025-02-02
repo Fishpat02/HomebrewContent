@@ -26,23 +26,37 @@
       "entries": [
         {
           "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Steinkin have a lifespan akin to that of elves, ranging from 100 to 1000 years."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Steinkin are typically between 5 and 12 feet tall and weigh between 400 and 900 pounds. Your size is Medium to Large."
+          ]
+        },
+        {
+          "type": "entries",
           "name": "Stone Skin",
           "entries": [
-            "Steinkin have a naturally tough hide that provides them with resistance to slashing damage."
+            "Steinkin have a naturally tough hide made of stone that provides them with resistance to slashing damage."
           ]
         },
         {
           "type": "entries",
           "name": "Steinkin Craftsmanship",
           "entries": [
-            "Steinkin are known for their craftsmanship and their ability to work with earthy materials. Choose two from: {@item smith's tools|xphb}, {@item glassblower's tools|xphb}, {@item mason's tools|xphb}, {@item jeweler's tools|xphb}, and {@item potter's tools|xphb}."
+            "Steinkin are known for their craftsmanship and their proficiency with earthy materials. Choose two from: {@item smith's tools|xphb}, {@item glassblower's tools|xphb}, {@item mason's tools|xphb}, {@item jeweler's tools|xphb}, and {@item potter's tools|xphb}."
           ]
         },
         {
           "type": "entries",
           "name": "Traditional Weapons",
           "entries": [
-            "Steinkin have a history of tribal warfare. Due to their tough hides, they became proficient with the {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
+            "Steinkin have a history of tribal warfare. Due to their stone hides they gain proficiency with: {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
           ]
         }
       ],
