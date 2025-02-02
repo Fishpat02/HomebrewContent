@@ -87,11 +87,11 @@
         {
           "choose": {
             "from": [
-              "smith's tools|xphb",
-              "glassblower's tools|xphb",
-              "mason's tools|xphb",
-              "jeweler's tools|xphb",
-              "potter's tools|xphb"
+              "smith's tools",
+              "glassblower's tools",
+              "mason's tools",
+              "jeweler's tools",
+              "potter's tools"
             ],
             "count": 2
           }
@@ -99,7 +99,7 @@
       ],
       "weaponProficiencies": [
         {
-          "light hammer|xphb": true,
+          "mace|xphb": true,
           "club|xphb": true,
           "greatclub|xphb": true,
           "sling|xphb": true,
