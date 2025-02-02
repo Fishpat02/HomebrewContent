@@ -5,12 +5,12 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.2.5",
+        "version": "0.2.6",
         "authors": ["Rachel Fallis"]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1738525566,
+    "dateLastModified": 1738533921,
     "edition": "one"
   },
   "race": [
@@ -183,7 +183,15 @@
               "items": [
                 "Once per short rest plus your Constitution modifier, you can use your reaction to gain advantage on a wisdom saving throw against a spell or magical effect.",
                 "At 6th level, you can use your reaction to absorb a spell of a level up to your potential spell level. You take no damage from the spell and its effects on you are negated. You can use this feature once per long rest plus your wisdom modifier.",
-                "At 8th level, you can use your action to cast the last absorbed spell at the same power it was cast. You can only have one spell in reserve at a time. You can use this feature once per long rest plus your wisdom modifier."
+                "At 8th level, you can use your action to cast the last absorbed spell at the same power it was originally cast. If you already have a spell stored, you must roll a {@dc 10} check. You can use this feature once per long rest plus your wisdom modifier.",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b Succcess}: You heal for {@dice 1d4} hit points per spell level of the contained spell.",
+                    "{@b Failure}: The contained spell dissipates with no effect.",
+                    "{@b Critical Failure}: The contained spell is spontaneously cast. The spell is cast at the nearest target, friend or foe."
+                  ]
+                }
               ]
             }
           ]
