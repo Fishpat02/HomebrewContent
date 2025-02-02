@@ -5,12 +5,12 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "authors": ["Rachel Fallis"]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1738524575,
+    "dateLastModified": 1738525044,
     "edition": "one"
   },
   "race": [
@@ -86,7 +86,7 @@
         {
           "type": "entries",
           "name": "Non-Organic Body",
-          "entries": ["Steinkin are resistant to poison damage."]
+          "entries": ["You are resistant to poison damage."]
         }
       ],
       "ability": [
