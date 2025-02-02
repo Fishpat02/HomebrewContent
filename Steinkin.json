@@ -5,12 +5,12 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "authors": ["Rachel Fallis"]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1738479699,
+    "dateLastModified": 1738480836,
     "edition": "one"
   },
   "race": [
