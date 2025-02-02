@@ -42,7 +42,7 @@
           "type": "entries",
           "name": "Traditional Weapons",
           "entries": [
-            "Steinkin have a history of tribal warfare. Due to their tough hides, they became proficient with the {@item lighthammer|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
+            "Steinkin have a history of tribal warfare. Due to their tough hides, they became proficient with the {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
           ]
         }
       ],
@@ -99,6 +99,7 @@
       ],
       "weaponProficiencies": [
         {
+          "light hammer|xphb": true,
           "mace|xphb": true,
           "club|xphb": true,
           "greatclub|xphb": true,
