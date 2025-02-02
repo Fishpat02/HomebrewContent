@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Calamity in Ouroboros",
+        "abbreviation": "CiO",
+        "full": "Calamity in Ouroboros",
+        "version": "0.0.1",
+        "authors": ["Rachel Fallis"]
+      }
+    ],
+    "dateAdded": 1738470330,
+    "dateLastModified": 1738470330,
+    "edition": "one"
+  },
+  "race": [
+    {
+      "name": "Steinkin",
+      "source": "CiO",
+      "age": {
+        "mature": 100,
+        "max": 1000
+      },
+      "size": ["M", "L"],
+      "speed": 30,
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Stone Skin",
+          "entries": [
+            "Steinkin have a naturally tough hide that provides them with resistance to slashing damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Steinkin Craftsmanship",
+          "entries": [
+            "Steinkin are known for their craftsmanship and their ability to work with earthy materials. Choose two from: {@item smith's tools|xphb}, {@item glassblower's tools|xphb}, {@item mason's tools|xphb}, {@item jeweler's tools|xphb}, and {@item potter's tools|xphb}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Traditional Weapons",
+          "entries": [
+            "Steinkin have a history of tribal warfare. Due to their tough hides, they became proficient with the {@item lighthammer|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": ["str", "con"],
+            "count": 1,
+            "amount": 2
+          },
+          "cha": -1
+        }
+      ],
+      "resist": [
+        {
+          "slashing|xphb": true
+        }
+      ],
+      "traitTags": [
+        "Damage Resistance",
+        "Tool Proficiency",
+        "Uncommon Race",
+        "Weapon Proficiency"
+      ],
+      "languageProficiencies": [
+        {
+          "common": true
+        },
+        {
+          "choose": {
+            "from": ["dwarvish", "giant", "goblin", "orc", "primordial"],
+            "count": 1
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "history": true
+        }
+      ],
+      "toolProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "smith's tools|xphb",
+              "glassblower's tools|xphb",
+              "mason's tools|xphb",
+              "jeweler's tools|xphb",
+              "potter's tools|xphb"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "weaponProficiencies": [
+        {
+          "lighthammer|xphb": true,
+          "club|xphb": true,
+          "greatclub|xphb": true,
+          "sling|xphb": true,
+          "warhammer|xphb": true
+        }
+      ]
+    }
+  ]
+}
