@@ -5,12 +5,12 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.1.1",
+        "version": "0.2.1",
         "authors": ["Rachel Fallis"]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1738483960,
+    "dateLastModified": 1738521596,
     "edition": "one"
   },
   "race": [
@@ -148,6 +148,47 @@
           "greatclub|xphb": true,
           "sling|xphb": true,
           "warhammer|xphb": true
+        }
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Arcane-Infused",
+      "source": "CiO",
+      "ability": [
+        {
+          "choose": {
+            "from": ["con", "wis"],
+            "count": 1,
+            "amount": 1
+          }
+        }
+      ],
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Steinkin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Steinkin hail from a realm heavily saturated in arcane energy. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "item",
+              "name": "Arcane Flow",
+              "entries": [
+                "Once per short rest plus your Constitution modifier, you can use your reaction to gain advantage on a wisdom saving throw against a spell or magical effect.",
+                "At 6th level, you can use your reaction to absorb a spell of a level up to your potential spell level. You take no damage from the spell and its effects on you are negated. You can use this feature once per long rest plus your wisdom modifier.",
+                "At 8th level, you can use your action to cast the last absorbed spell at the same power it was cast. You can only have one spell in reserve at a time. You can use this feature once per long rest plus your wisdom modifier."
+              ]
+            }
+          ]
         }
       ]
     }
