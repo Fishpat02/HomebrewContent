@@ -5,7 +5,7 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.0.5",
+        "version": "0.1.1",
         "authors": ["Rachel Fallis"]
       }
     ],
@@ -56,7 +56,38 @@
           "type": "entries",
           "name": "Traditional Weapons",
           "entries": [
-            "Steinkin have a history of tribal warfare. Due to their stone hides they gain proficiency with: {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
+            "Steinkin have a history of tribal warfare, fighting with blunt weapons due to their stone hides. You gain proficiency with: {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}."
+          ]
+        },
+        {
+          "name": "Mountain Born",
+          "entries": [
+            "Steinkin have acclimated to high altitude, including elevations above 20,000 feet. You're naturally adapted to cold climates."
+          ],
+          "type": "entries"
+        },
+        {
+          "type": "entries",
+          "name": "Made of Stone",
+          "entries": [
+            "Steinkin are similar to constructs in that they do not require air, food, drink, or sleep. Instead, you have the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "You do not need to eat or drink. Instead you consume 1 pound of stone per day to maintain your health. If you do not consume stone, you suffer one level of exhaustion per day after 24 hours.",
+                "You do not need to breathe air, but you can still suffocate after 30 minutes. The only way to revive you from suffocation is to expend the magic of a spell of 1st level or higher. You are incapacitated in this state.",
+                "You cannot swim and sink in water or liquid of similar viscosity.",
+                "You do not need to sleep. Instead, you enter an inactive state for 4 hours each day. You do not dream in this state; you essentially become a statue and cannot awaken yourself or be awoken.",
+                "You may consume materials of higher rarity to heal yourself. Consuming a gemstone of uncommon rarity or higher heals you for 1d4 hit points per rarity level. Consuming a gemstone of common rarity or lower heals you for 1 hit point."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Non-Organic Body",
+          "entries": [
+            "Steinkin are resistant to poison damage."
           ]
         }
       ],
@@ -74,6 +105,8 @@
       "traitTags": [
         "Damage Resistance",
         "Tool Proficiency",
+        "Magic Resistance",
+        "Natural Armor",
         "Uncommon Race",
         "Weapon Proficiency"
       ],
