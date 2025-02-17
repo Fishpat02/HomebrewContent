@@ -3,11 +3,11 @@ _meta:
     - json: fishpat02
       abbreviation: CiO
       full: Calamity in Ouroboros
-      version: 0.3.4
+      version: 0.3.5
       authors:
         - Rachel Fallis
   dateAdded: 1738470330
-  dateLastModified: 1739765241
+  dateLastModified: 1739765688
   edition: one
 race:
   - name: Steinkin
@@ -136,7 +136,7 @@ feat:
                   - '{@b Critical Failure}: The contained spell is spontaneously cast. The spell is cast at the nearest target, friend or foe.'
 item:
   - name: Kinstone Tonfa
-    rarity: uncommon
+    rarity: none
     source: CiO
     page: 0
     type: M|XPHB
