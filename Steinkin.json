@@ -5,14 +5,14 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.3.7",
+        "version": "0.3.8",
         "authors": [
           "Rachel Fallis"
         ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1739827435,
+    "dateLastModified": 1739831995,
     "edition": "one"
   },
   "race": [
@@ -235,7 +235,6 @@
       "dmg2": "2d8",
       "dmgType": "B",
       "property": [
-        "H|XPHB",
         "S"
       ],
       "entries": [
@@ -243,8 +242,19 @@
           "type": "entries",
           "entries": [
             "This unusual weapon consists of a pillar-shaped slab of Kinstone with a handle affixed to the side. The handle is attached through some kind of ratcheting mechanism, with a lever on the handle to release the ratcheting lock, allowing the tonfa to spin freely",
-            "Due to the heavy nature of the material used to make this weapon, wielding it is difficult. Creatures with a strength less than 18 roll to attack with disadvantage.",
-            "As this weapon is able to spin, the wielder may attempt an athletics check to make use of this and attack with additional momentum."
+            {
+              "type": "entries",
+              "entries": [
+                {
+                  "type": "list",
+                  "name": "Details",
+                  "items": [
+                    "Due to the heavy nature of the material used to make this weapon, wielding it is difficult. Creatures with a strength less than 18 roll to attack with disadvantage.",
+                    "As this weapon is able to spin, the wielder may attempt an {@skill Athletics} check to make use of this and attack with additional momentum."
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
