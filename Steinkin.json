@@ -2,17 +2,17 @@
   "_meta": {
     "sources": [
       {
-        "json": "fishpat02",
+        "json": "CiO",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.3.5",
+        "version": "0.3.6",
         "authors": [
           "Rachel Fallis"
         ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1739765688,
+    "dateLastModified": 1739773444,
     "edition": "one"
   },
   "race": [
