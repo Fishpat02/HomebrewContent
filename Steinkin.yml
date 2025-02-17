@@ -3,11 +3,11 @@ _meta:
     - json: fishpat02
       abbreviation: CiO
       full: Calamity in Ouroboros
-      version: 0.3.8
+      version: 0.3.9
       authors:
         - Rachel Fallis
   dateAdded: 1738470330
-  dateLastModified: 1739831995
+  dateLastModified: 1739833998
   edition: one
 race:
   - name: Steinkin
@@ -142,7 +142,7 @@ item:
     type: M|XPHB
     weight: 230
     weaponCategory: martial
-    dmg1: 1d8
+    dmg1: 1d12
     dmg2: 2d8
     dmgType: B
     property:
