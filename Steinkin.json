@@ -5,14 +5,14 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.3.3",
+        "version": "0.3.4",
         "authors": [
           "Rachel Fallis"
         ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1739763812,
+    "dateLastModified": 1739765241,
     "edition": "one"
   },
   "race": [
@@ -228,14 +228,14 @@
       "rarity": "uncommon",
       "source": "CiO",
       "page": 0,
-      "type": "M",
+      "type": "M|XPHB",
       "weight": 230,
       "weaponCategory": "martial",
       "dmg1": "1d8",
       "dmg2": "2d8",
       "dmgType": "B",
       "property": [
-        "H",
+        "H|XPHB",
         "S"
       ],
       "entries": [
