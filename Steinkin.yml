@@ -1,137 +1,155 @@
 _meta:
   sources:
-  - json: fishpat02
-    abbreviation: CiO
-    full: Calamity in Ouroboros
-    version: 0.2.6
-    authors:
-    - Rachel Fallis
+    - json: fishpat02
+      abbreviation: CiO
+      full: Calamity in Ouroboros
+      version: 0.2.6
+      authors:
+        - Rachel Fallis
   dateAdded: 1738470330
   dateLastModified: 1738533921
   edition: one
 race:
-- name: Steinkin
-  source: CiO
-  age:
-    mature: 100
-    max: 1000
-  size:
-  - M
-  - L
-  speed: 30
-  entries:
-  - type: entries
-    name: Age
+  - name: Steinkin
+    source: CiO
+    age:
+      mature: 100
+      max: 1000
+    size:
+      - M
+      - L
+    speed: 30
     entries:
-    - Steinkin have a lifespan akin to that of elves, ranging from 100 to 1000 years.
-  - type: entries
-    name: Size
-    entries:
-    - Steinkin are typically between 5 and 12 feet tall and weigh between 400 and 900 pounds. Your size is Medium to Large.
-  - type: entries
-    name: Stone Skin
-    entries:
-    - Steinkin have a naturally tough hide made of stone that provides them with resistance to slashing damage.
-  - type: entries
-    name: Steinkin Craftsmanship
-    entries:
-    - "Steinkin are known for their craftsmanship and their proficiency with earthy materials. Choose two from: {@item smith's tools|xphb}, {@item glassblower's tools|xphb}, {@item mason's tools|xphb}, {@item jeweler's tools|xphb}, and {@item potter's tools|xphb}."
-  - type: entries
-    name: Traditional Weapons
-    entries:
-    - 'Steinkin have a history of tribal warfare, fighting with blunt weapons due to their stone hides. You gain proficiency with: {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}.'
-  - name: Mountain Born
-    entries:
-    - Steinkin have acclimated to {@hazard high altitude}, including elevations above 20,000 feet. You're naturally adapted to cold climates; you gain resistance to cold damage.
-    type: entries
-  - type: entries
-    name: Made of Stone
-    entries:
-    - 'Steinkin are similar to constructs in that they do not require air, food, drink, or sleep. Instead, you have the following traits:'
-    - type: list
-      items:
-      - You do not need to eat or drink. Instead you consume 1 pound of stone per day to maintain your health. If you do not consume stone, you suffer one level of {@condition exhaustion} per day after 24 hours.
-      - You do not need to breathe air, but you can still suffer the effects of {@hazard suffocation} after 30 minutes plus your constitution bonus times 5 minutes, after which you become a statue and gain the {@condition incapacitated} condition. The only way to revive you from this state is to expend the magic of a spell of a level at least equal to that of your potential spell casting level.
-      - You cannot swim and sink in water or liquid of similar viscosity.
-      - You do not need to sleep. Instead, you enter an inactive state for 4 hours each day. You do not dream in this state; you essentially become a statue and cannot awaken yourself or be awoken.
-      - You may consume materials of higher rarity to heal yourself. Consuming a gemstone of uncommon rarity or higher heals you for {@dice 1d4} hit points per rarity level. Consuming a gemstone of common rarity or lower heals you for 1 hit point.
-  - type: entries
-    name: Non-Organic Body
-    entries:
-    - You are resistant to poison damage.
-  ability:
-  - choose:
-      from:
-      - str
-      - con
-      count: 1
-      amount: 2
-    cha: -1
-  resist:
-  - slashing
-  - poison
-  - cold
-  traitTags:
-  - Damage Resistance
-  - Tool Proficiency
-  - Magic Resistance
-  - Natural Armor
-  - Uncommon Race
-  - Weapon Proficiency
-  languageProficiencies:
-  - common: true
-  - choose:
-      from:
-      - dwarvish
-      - giant
-      - goblin
-      - orc
-      - primordial
-      count: 1
-  skillProficiencies:
-  - history: true
-  toolProficiencies:
-  - choose:
-      from:
-      - smith's tools
-      - glassblower's tools
-      - mason's tools
-      - jeweler's tools
-      - potter's tools
-      count: 2
-  weaponProficiencies:
-  - light hammer|xphb: true
-    mace|xphb: true
-    club|xphb: true
-    greatclub|xphb: true
-    sling|xphb: true
-    warhammer|xphb: true
+      - type: entries
+        name: Age
+        entries:
+          - Steinkin have a lifespan akin to that of elves, ranging from 100 to 1000 years.
+      - type: entries
+        name: Size
+        entries:
+          - Steinkin are typically between 5 and 12 feet tall and weigh between 400 and 900 pounds. Your size is Medium to Large.
+      - type: entries
+        name: Stone Skin
+        entries:
+          - Steinkin have a naturally tough hide made of stone that provides them with resistance to slashing damage.
+      - type: entries
+        name: Steinkin Craftsmanship
+        entries:
+          - "Steinkin are known for their craftsmanship and their proficiency with earthy materials. Choose two from: {@item smith's tools|xphb}, {@item glassblower's tools|xphb}, {@item mason's tools|xphb}, {@item jeweler's tools|xphb}, and {@item potter's tools|xphb}."
+      - type: entries
+        name: Traditional Weapons
+        entries:
+          - 'Steinkin have a history of tribal warfare, fighting with blunt weapons due to their stone hides. You gain proficiency with: {@item light hammer|xphb}, {@item mace|xphb}, {@item club|xphb}, {@item greatclub|xphb}, {@item sling|xphb}, and {@item warhammer|xphb}.'
+      - name: Mountain Born
+        entries:
+          - Steinkin have acclimated to {@hazard high altitude}, including elevations above 20,000 feet. You're naturally adapted to cold climates; you gain resistance to cold damage.
+        type: entries
+      - type: entries
+        name: Made of Stone
+        entries:
+          - 'Steinkin are similar to constructs in that they do not require air, food, drink, or sleep. Instead, you have the following traits:'
+          - type: list
+            items:
+              - You do not need to eat or drink. Instead you consume 1 pound of stone per day to maintain your health. If you do not consume stone, you suffer one level of {@condition exhaustion} per day after 24 hours.
+              - You do not need to breathe air, but you can still suffer the effects of {@hazard suffocation} after 30 minutes plus your constitution bonus times 5 minutes, after which you become a statue and gain the {@condition incapacitated} condition. The only way to revive you from this state is to expend the magic of a spell of a level at least equal to that of your potential spell casting level.
+              - You cannot swim and sink in water or liquid of similar viscosity.
+              - You do not need to sleep. Instead, you enter an inactive state for 4 hours each day. You do not dream in this state; you essentially become a statue and cannot awaken yourself or be awoken.
+              - You may consume materials of higher rarity to heal yourself. Consuming a gemstone of uncommon rarity or higher heals you for {@dice 1d4} hit points per rarity level. Consuming a gemstone of common rarity or lower heals you for 1 hit point.
+      - type: entries
+        name: Non-Organic Body
+        entries:
+          - You are resistant to poison damage.
+    ability:
+      - choose:
+          from:
+            - str
+            - con
+          count: 1
+          amount: 2
+        cha: -1
+    resist:
+      - slashing
+      - poison
+      - cold
+    traitTags:
+      - Damage Resistance
+      - Tool Proficiency
+      - Magic Resistance
+      - Natural Armor
+      - Uncommon Race
+      - Weapon Proficiency
+    languageProficiencies:
+      - common: true
+      - choose:
+          from:
+            - dwarvish
+            - giant
+            - goblin
+            - orc
+            - primordial
+          count: 1
+    skillProficiencies:
+      - history: true
+    toolProficiencies:
+      - choose:
+          from:
+            - smith's tools
+            - glassblower's tools
+            - mason's tools
+            - jeweler's tools
+            - potter's tools
+          count: 2
+    weaponProficiencies:
+      - light hammer|xphb: true
+        mace|xphb: true
+        club|xphb: true
+        greatclub|xphb: true
+        sling|xphb: true
+        warhammer|xphb: true
 feat:
-- name: Arcane-Infused
-  source: CiO
-  ability:
-  - choose:
-      from:
-      - con
-      - wis
-      count: 1
-      amount: 1
-  prerequisite:
-  - race:
-    - name: Steinkin
-  entries:
-  - 'Steinkin hail from a realm heavily saturated in arcane energy. You gain the following benefits:'
-  - type: entries
-    name: Arcane Flow
+  - name: Arcane-Infused
+    source: CiO
+    ability:
+      - choose:
+          from:
+            - con
+            - wis
+          count: 1
+          amount: 1
+    prerequisite:
+      - race:
+          - name: Steinkin
     entries:
-    - type: list
-      items:
-      - Once per short rest plus your Constitution modifier, you can use your reaction to gain advantage on a wisdom saving throw against a spell or magical effect.
-      - At 6th level, you can use your reaction to absorb a spell of a level up to your potential spell level. You take no damage from the spell and its effects on you are negated. You can use this feature once per long rest plus your wisdom modifier.
-      - At 8th level, you can use your action to cast the last absorbed spell at the same power it was originally cast. If you already have a spell stored, you must roll a {@dc 10} check. You can use this feature once per long rest plus your wisdom modifier.
-      - type: list
-        items:
-        - '{@b Succcess}: You heal for {@dice 1d4} hit points per spell level of the contained spell.'
-        - '{@b Failure}: The contained spell dissipates with no effect.'
-        - '{@b Critical Failure}: The contained spell is spontaneously cast. The spell is cast at the nearest target, friend or foe.'
-
+      - 'Steinkin hail from a realm heavily saturated in arcane energy. You gain the following benefits:'
+      - type: entries
+        name: Arcane Flow
+        entries:
+          - type: list
+            items:
+              - Once per short rest plus your Constitution modifier, you can use your reaction to gain advantage on a wisdom saving throw against a spell or magical effect.
+              - At 6th level, you can use your reaction to absorb a spell of a level up to your potential spell level. You take no damage from the spell and its effects on you are negated. You can use this feature once per long rest plus your wisdom modifier.
+              - At 8th level, you can use your action to cast the last absorbed spell at the same power it was originally cast. If you already have a spell stored, you must roll a {@dc 10} check. You can use this feature once per long rest plus your wisdom modifier.
+              - type: list
+                items:
+                  - '{@b Succcess}: You heal for {@dice 1d4} hit points per spell level of the contained spell.'
+                  - '{@b Failure}: The contained spell dissipates with no effect.'
+                  - '{@b Critical Failure}: The contained spell is spontaneously cast. The spell is cast at the nearest target, friend or foe.'
+item:
+  - name: Kinstone Tonfa
+    rarity: uncommon
+    source: CiO
+    type: M
+    weight: 230
+    weaponCategory: martial
+    dmg1: 1d8
+    dmg2: 2d8
+    dmgType: B
+    property:
+      - H
+      - S
+    entries:
+      - type: entries
+        entries:
+          - This unusual weapon consists of a pillar-shaped slab of Kinstone with a handle affixed to the side. The handle is attached through some kind of ratcheting mechanism, with a lever on the handle to release the ratcheting lock, allowing the tonfa to spin freely
+          - Due to the heavy nature of the material used to make this weapon, wielding it is difficult. Creatures with a strength less than 18 roll to attack with disadvantage.
+          - As this weapon is able to spin, the wielder may attempt an athletics check to make use of this and attack with additional momentum.
