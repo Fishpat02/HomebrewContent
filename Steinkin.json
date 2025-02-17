@@ -5,14 +5,14 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.3.1",
+        "version": "0.3.3",
         "authors": [
           "Rachel Fallis"
         ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1739759749,
+    "dateLastModified": 1739763812,
     "edition": "one"
   },
   "race": [
@@ -227,6 +227,7 @@
       "name": "Kinstone Tonfa",
       "rarity": "uncommon",
       "source": "CiO",
+      "page": 0,
       "type": "M",
       "weight": 230,
       "weaponCategory": "martial",
