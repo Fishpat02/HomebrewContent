@@ -5,12 +5,14 @@
         "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.2.6",
-        "authors": ["Rachel Fallis"]
+        "version": "0.3.1",
+        "authors": [
+          "Rachel Fallis"
+        ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1738533921,
+    "dateLastModified": 1739759749,
     "edition": "one"
   },
   "race": [
@@ -21,7 +23,10 @@
         "mature": 100,
         "max": 1000
       },
-      "size": ["M", "L"],
+      "size": [
+        "M",
+        "L"
+      ],
       "speed": 30,
       "entries": [
         {
@@ -86,20 +91,29 @@
         {
           "type": "entries",
           "name": "Non-Organic Body",
-          "entries": ["You are resistant to poison damage."]
+          "entries": [
+            "You are resistant to poison damage."
+          ]
         }
       ],
       "ability": [
         {
           "choose": {
-            "from": ["str", "con"],
+            "from": [
+              "str",
+              "con"
+            ],
             "count": 1,
             "amount": 2
           },
           "cha": -1
         }
       ],
-      "resist": ["slashing", "poison", "cold"],
+      "resist": [
+        "slashing",
+        "poison",
+        "cold"
+      ],
       "traitTags": [
         "Damage Resistance",
         "Tool Proficiency",
@@ -114,7 +128,13 @@
         },
         {
           "choose": {
-            "from": ["dwarvish", "giant", "goblin", "orc", "primordial"],
+            "from": [
+              "dwarvish",
+              "giant",
+              "goblin",
+              "orc",
+              "primordial"
+            ],
             "count": 1
           }
         }
@@ -157,7 +177,10 @@
       "ability": [
         {
           "choose": {
-            "from": ["con", "wis"],
+            "from": [
+              "con",
+              "wis"
+            ],
             "count": 1,
             "amount": 1
           }
@@ -194,6 +217,33 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Kinstone Tonfa",
+      "rarity": "uncommon",
+      "source": "CiO",
+      "type": "M",
+      "weight": 230,
+      "weaponCategory": "martial",
+      "dmg1": "1d8",
+      "dmg2": "2d8",
+      "dmgType": "B",
+      "property": [
+        "H",
+        "S"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "This unusual weapon consists of a pillar-shaped slab of Kinstone with a handle affixed to the side. The handle is attached through some kind of ratcheting mechanism, with a lever on the handle to release the ratcheting lock, allowing the tonfa to spin freely",
+            "Due to the heavy nature of the material used to make this weapon, wielding it is difficult. Creatures with a strength less than 18 roll to attack with disadvantage.",
+            "As this weapon is able to spin, the wielder may attempt an athletics check to make use of this and attack with additional momentum."
           ]
         }
       ]
