@@ -2,23 +2,23 @@
   "_meta": {
     "sources": [
       {
-        "json": "CiO",
+        "json": "fishpat02",
         "abbreviation": "CiO",
         "full": "Calamity in Ouroboros",
-        "version": "0.3.6",
+        "version": "0.3.7",
         "authors": [
           "Rachel Fallis"
         ]
       }
     ],
     "dateAdded": 1738470330,
-    "dateLastModified": 1739773444,
+    "dateLastModified": 1739827435,
     "edition": "one"
   },
   "race": [
     {
       "name": "Steinkin",
-      "source": "CiO",
+      "source": "fishpat02",
       "age": {
         "mature": 100,
         "max": 1000
@@ -173,7 +173,7 @@
   "feat": [
     {
       "name": "Arcane-Infused",
-      "source": "CiO",
+      "source": "fishpat02",
       "ability": [
         {
           "choose": {
@@ -226,7 +226,7 @@
     {
       "name": "Kinstone Tonfa",
       "rarity": "none",
-      "source": "CiO",
+      "source": "fishpat02",
       "page": 0,
       "type": "M|XPHB",
       "weight": 230,
