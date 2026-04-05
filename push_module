@@ -1,0 +1,6 @@
+#!/bin/bash
+
+npx fvtt package pack "ancestries" --id "calamity-in-ouroboros" --type "Module" --in src/packs/ancestries --out data/Data/modules/calamity-in-ouroboros/packs --yaml
+npx fvtt package pack "ancestryfeatures" --id "calamity-in-ouroboros" --type "Module" --in src/packs/ancestryfeatures --out data/Data/modules/calamity-in-ouroboros/packs --yaml
+npx fvtt package pack "feats" --id "calamity-in-ouroboros" --type "Module" --in src/packs/feats --out data/Data/modules/calamity-in-ouroboros/packs --yaml
+npx fvtt package pack "heritages" --id "calamity-in-ouroboros" --type "Module" --in src/packs/heritages --out data/Data/modules/calamity-in-ouroboros/packs --yaml
