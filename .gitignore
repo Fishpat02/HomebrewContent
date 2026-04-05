@@ -1,1 +1,5 @@
 .vscode/**
+
+data/
+node_modules/
+foundry_data/
