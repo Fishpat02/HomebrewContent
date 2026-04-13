@@ -2,6 +2,11 @@
 
 PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
 
+if [ -f module.json ]; then
+    cp -v module.json{,.bak}
+fi
+cp -v data/Data/modules/calamity-in-ouroboros/module.json .
+
 for pack in ${PACKS[@]};
 do
     npx fvtt package unpack ${pack} --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/${pack} --yaml
