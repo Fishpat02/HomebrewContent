@@ -14,7 +14,7 @@ system:
     license: OGL
     remaster: false
   rules: []
-  slug: null
+  slug: frostforged-steinkin
   traits:
     otherTags: []
     value: []
@@ -35,10 +35,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.12.1
+  systemVersion: 8.0.1
   createdTime: 1776097948597
-  modifiedTime: 1776108386358
+  modifiedTime: 1776121392856
   lastModifiedBy: i8DbBUqZL9B2GzBN
 _key: '!items!ksmzNXkgnlNnbHtF'
