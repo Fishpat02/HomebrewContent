@@ -1,6 +1,8 @@
 #!/bin/bash
 
-npx fvtt package pack "ancestries" --id "calamity-in-ouroboros" --type "Module" --in src/packs/ancestries --out packs --yaml
-npx fvtt package pack "ancestryfeatures" --id "calamity-in-ouroboros" --type "Module" --in src/packs/ancestryfeatures --out packs --yaml
-npx fvtt package pack "feats" --id "calamity-in-ouroboros" --type "Module" --in src/packs/feats --out packs --yaml
-npx fvtt package pack "heritages" --id "calamity-in-ouroboros" --type "Module" --in src/packs/heritages --out packs --yaml
+PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
+
+for pack in ${PACKS[@]};
+do
+    npx fvtt package pack ${pack} --id "calamity-in-ouroboros" --type "Module" --in src/packs/${pack} --out packs --yaml
+done

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-npx fvtt package unpack "ancestries" --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/ancestries --yaml
-npx fvtt package unpack "ancestryfeatures" --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/ancestryfeatures --yaml
-npx fvtt package unpack "feats" --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/feats --yaml
-npx fvtt package unpack "heritages" --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/heritages --yaml
+PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
+
+for pack in ${PACKS[@]};
+do
+    npx fvtt package unpack ${pack} --id "calamity-in-ouroboros" --type "Module" --in data/Data/modules/calamity-in-ouroboros/packs --out src/packs/${pack} --yaml
+done
