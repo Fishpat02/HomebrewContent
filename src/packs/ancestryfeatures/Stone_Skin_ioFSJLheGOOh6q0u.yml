@@ -1,0 +1,57 @@
+name: Stone Skin
+type: feat
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: Calamity in Ouroboros
+    authors: Rachel Fallis
+    license: OGL
+    remaster: true
+  rules: []
+  slug: stone-skin
+  traits:
+    otherTags: []
+    value:
+      - steinkin
+    rarity: common
+  level:
+    value: 1
+  category: ancestryfeature
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+  location: null
+img: systems/pf2e/icons/default-icons/feat.svg
+folder: null
+ownership:
+  default: 0
+  KrftnXVuJhfBfXCD: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.1
+  createdTime: 1775398914365
+  modifiedTime: 1775398914365
+  lastModifiedBy: KrftnXVuJhfBfXCD
+_id: ioFSJLheGOOh6q0u
+sort: 0
+_key: '!items!ioFSJLheGOOh6q0u'
