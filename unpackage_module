@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
+PACKS=("ancestries" "ancestryfeatures" "heritages")
 
 for pack in ${PACKS[@]};
 do

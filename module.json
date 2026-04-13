@@ -2,7 +2,7 @@
   "id": "calamity-in-ouroboros",
   "title": "Calamity in Ouroboros",
   "description": "Pathfinder 2e module for custom content in Calamity in Ouroboros",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packs": [
     {
       "label": "Ancestries",
@@ -27,17 +27,6 @@
       }
     },
     {
-      "label": "Feats",
-      "name": "feats",
-      "system": "pf2e",
-      "type": "Item",
-      "path": "./packs/feats",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "label": "Heritages",
       "name": "heritages",
       "system": "pf2e",
@@ -52,7 +41,7 @@
   "packFolders": [
     {
       "name": "Calamity in Ouroboros",
-      "packs": ["ancestries", "ancestryfeatures", "feats", "heritages"]
+      "packs": ["ancestries", "ancestryfeatures", "heritages"]
     }
   ],
   "flags": {

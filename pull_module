@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
+PACKS=("ancestries" "ancestryfeatures" "heritages")
 
 if [ -f module.json ]; then
     cp -v module.json{,.bak}
