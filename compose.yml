@@ -1,0 +1,29 @@
+services:
+  foundry_vtt:
+    image: ghcr.io/felddy/foundryvtt:13
+    in_pod: false
+    userns_mode: keep-id
+    volumes:
+      - "./data:/data:rw"
+    secrets:
+      - source: foundry-user
+        target: FOUNDRY_USERNAME
+        type: env
+      - source: foundry-pw
+        target: FOUNDRY_PASSWORD
+        type: env
+      - source: foundry-admin
+        target: FOUNDRY_ADMIN_KEY
+        type: env
+    environment:
+      - FOUNDRY_TELEMETRY=false
+    ports:
+      - "30000:30000/tcp"
+
+secrets:
+  foundry-user:
+    external: true
+  foundry-pw:
+    external: true
+  foundry-admin:
+    external: true
