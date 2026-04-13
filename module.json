@@ -2,7 +2,7 @@
   "id": "calamity-in-ouroboros",
   "title": "Calamity in Ouroboros",
   "description": "Pathfinder 2e module for custom content in Calamity in Ouroboros",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packs": [
     {
       "label": "Ancestries",

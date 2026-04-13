@@ -25,8 +25,8 @@ system:
     uuid: Compendium.calamity-in-ouroboros.ancestries.Item.mvdeWsNtcsXcEj4F
 _id: zcChAp7yJg02hZTU
 img: systems/pf2e/icons/default-icons/heritage.svg
-folder: null
-sort: 0
+folder: goav69zRzQvYQWfb
+sort: 200000
 ownership:
   default: 0
   i8DbBUqZL9B2GzBN: 3
@@ -39,6 +39,6 @@ _stats:
   systemId: pf2e
   systemVersion: 7.12.1
   createdTime: 1776097619063
-  modifiedTime: 1776097628435
+  modifiedTime: 1776108387088
   lastModifiedBy: i8DbBUqZL9B2GzBN
 _key: '!items!zcChAp7yJg02hZTU'

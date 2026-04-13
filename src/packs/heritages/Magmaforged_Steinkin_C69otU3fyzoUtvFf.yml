@@ -1,4 +1,5 @@
-name: Mountainforged Steinkin
+folder: goav69zRzQvYQWfb
+name: Magmaforged Steinkin
 type: heritage
 effects: []
 system:
@@ -18,18 +19,17 @@ system:
   traits:
     otherTags: []
     value: []
-    rarity: common
+    rarity: rare
   ancestry:
     name: Steinkin
     slug: steinkin
     uuid: Compendium.calamity-in-ouroboros.ancestries.Item.mvdeWsNtcsXcEj4F
-_id: X2J2rJr0F7FEdvBz
+_id: C69otU3fyzoUtvFf
 img: systems/pf2e/icons/default-icons/heritage.svg
-folder: goav69zRzQvYQWfb
-sort: 150000
+sort: 0
 ownership:
   default: 0
-  KrftnXVuJhfBfXCD: 3
+  i8DbBUqZL9B2GzBN: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -38,7 +38,7 @@ _stats:
   coreVersion: '13.351'
   systemId: pf2e
   systemVersion: 7.12.1
-  createdTime: 1775404143586
-  modifiedTime: 1776108387767
+  createdTime: 1776110243941
+  modifiedTime: 1776110256973
   lastModifiedBy: i8DbBUqZL9B2GzBN
-_key: '!items!X2J2rJr0F7FEdvBz'
+_key: '!items!C69otU3fyzoUtvFf'
