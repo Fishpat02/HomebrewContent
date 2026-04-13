@@ -3,9 +3,9 @@
     "@foundryvtt/foundryvtt-cli": "^3.0.3"
   },
   "scripts": {
-    "package": "./package_module",
-    "unpackage": "./unpackage_module",
-    "push": "./push_module",
-    "pull": "./pull_module"
+    "package": "./scripts/package_module",
+    "unpackage": "./scripts/unpackage_module",
+    "push": "./scripts/push_module",
+    "pull": "./scripts/pull_module"
   }
 }
