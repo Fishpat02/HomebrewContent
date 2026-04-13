@@ -1,6 +1,7 @@
 .vscode/**
 .zed/**
 
+*.bak
 data/
 node_modules/
 foundry_data/
