@@ -1,6 +1,6 @@
 services:
   foundry_vtt:
-    image: ghcr.io/felddy/foundryvtt:13
+    image: ghcr.io/felddy/foundryvtt:14
     in_pod: false
     userns_mode: keep-id
     volumes:
