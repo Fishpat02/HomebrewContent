@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Archetype
+color: null
+sorting: a
+_id: BK5jGichjQJVFb8M
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.1
+  createdTime: 1776129778355
+  modifiedTime: 1776129778355
+  lastModifiedBy: i8DbBUqZL9B2GzBN
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!BK5jGichjQJVFb8M'

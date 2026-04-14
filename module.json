@@ -27,6 +27,17 @@
       }
     },
     {
+      "label": "Feats",
+      "name": "feats",
+      "system": "pf2e",
+      "type": "Item",
+      "path": "./packs/feats",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "label": "Heritages",
       "name": "heritages",
       "system": "pf2e",

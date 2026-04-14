@@ -1,0 +1,20 @@
+type: Item
+folder: CM9Npx7Mi9NUIHsv
+name: Level 12
+color: null
+sorting: a
+_id: baGX6PuD8VmOjhrH
+description: ''
+sort: -50000
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.1
+  createdTime: 1776130699375
+  modifiedTime: 1776132436962
+  lastModifiedBy: i8DbBUqZL9B2GzBN
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!baGX6PuD8VmOjhrH'

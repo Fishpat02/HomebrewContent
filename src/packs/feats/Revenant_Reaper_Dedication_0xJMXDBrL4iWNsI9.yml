@@ -1,0 +1,59 @@
+folder: RmtTVW2dvyuAvA3K
+name: Revenant Reaper Dedication
+type: feat
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: revenant-reaper-dedication
+  traits:
+    otherTags: []
+    value:
+      - archetype
+      - dedication
+    rarity: rare
+  level:
+    value: 6
+  category: class
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Must have died
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+  location: null
+_id: 0xJMXDBrL4iWNsI9
+img: systems/pf2e/icons/default-icons/feat.svg
+sort: 0
+ownership:
+  default: 0
+  i8DbBUqZL9B2GzBN: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.1
+  createdTime: 1776132499070
+  modifiedTime: 1776132829117
+  lastModifiedBy: i8DbBUqZL9B2GzBN
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0xJMXDBrL4iWNsI9'

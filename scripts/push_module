@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKS=("ancestries" "ancestryfeatures" "heritages")
+PACKS=("ancestries" "ancestryfeatures" "feats" "heritages")
 
 if [ -f data/Data/modules/calamity-in-ouroboros/module.json ]; then
     cp -v data/Data/modules/calamity-in-ouroboros/module.json{,.bak}
