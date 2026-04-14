@@ -1,4 +1,4 @@
-name: Stone Skin
+name: Non-Organic
 type: feat
 effects: []
 system:
@@ -6,23 +6,18 @@ system:
     version: 0.955
     previous: null
   description:
-    value: >-
-      <p>Your stone-like outer skin makes it difficult for many conventional
-      weapons to harm you. You gain half your level's resistance to piercing and
-      slashing damage, rounded down.</p>
+    value: <p>Your non-biological body gives you resistance to poison damage.</p>
     gm: ''
   publication:
-    title: Calamity in Ouroboros
-    authors: Rachel Fallis
+    title: ''
+    authors: ''
     license: OGL
-    remaster: true
+    remaster: false
   rules:
     - key: Resistance
-      type:
-        - slashing
-        - piercing
-      value: max(1, floor(@actor.level / 2))
-  slug: stone-skin
+      type: poison
+      value: 2
+  slug: non-organic
   traits:
     otherTags: []
     value:
@@ -44,23 +39,22 @@ system:
     senses: {}
     suppressedFeatures: []
   location: null
-  frequency: null
+_id: 6qxsvLYpMfLSdci1
 img: systems/pf2e/icons/default-icons/feat.svg
 folder: J3ZfXqufwerGnhG7
+sort: 100000
 ownership:
   default: 0
-  KrftnXVuJhfBfXCD: 3
+  i8DbBUqZL9B2GzBN: 3
 flags: {}
 _stats:
-  compendiumSource: null
-  duplicateSource: null
-  exportSource: null
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.1
-  createdTime: 1775398914365
-  modifiedTime: 1776129072680
+  createdTime: 1776128740254
+  modifiedTime: 1776129071920
   lastModifiedBy: i8DbBUqZL9B2GzBN
-_id: ioFSJLheGOOh6q0u
-sort: 200000
-_key: '!items!ioFSJLheGOOh6q0u'
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6qxsvLYpMfLSdci1'

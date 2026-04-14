@@ -59,6 +59,11 @@ system:
       img: systems/pf2e/icons/default-icons/feat.svg
       name: Stone Skin
       level: 1
+    PH0rG:
+      uuid: Compendium.calamity-in-ouroboros.ancestryfeatures.Item.6qxsvLYpMfLSdci1
+      img: systems/pf2e/icons/default-icons/feat.svg
+      name: Non-Organic
+      level: 1
   vision: normal
 _id: mvdeWsNtcsXcEj4F
 img: systems/pf2e/icons/default-icons/ancestry.svg
@@ -72,10 +77,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.12.1
+  systemVersion: 8.0.1
   createdTime: 1775395860203
-  modifiedTime: 1775398929981
-  lastModifiedBy: KrftnXVuJhfBfXCD
+  modifiedTime: 1776129047264
+  lastModifiedBy: i8DbBUqZL9B2GzBN
 _key: '!items!mvdeWsNtcsXcEj4F'

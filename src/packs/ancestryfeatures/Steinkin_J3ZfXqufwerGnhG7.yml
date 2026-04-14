@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Steinkin
+color: null
+sorting: a
+_id: J3ZfXqufwerGnhG7
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.1
+  createdTime: 1776129068878
+  modifiedTime: 1776129068878
+  lastModifiedBy: i8DbBUqZL9B2GzBN
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!J3ZfXqufwerGnhG7'
