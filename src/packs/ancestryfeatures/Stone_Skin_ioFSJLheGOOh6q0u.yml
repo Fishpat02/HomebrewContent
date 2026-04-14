@@ -6,14 +6,22 @@ system:
     version: 0.955
     previous: null
   description:
-    value: ''
+    value: >-
+      <p>Your stone-like outer skin makes it difficult for many conventional
+      weapons to harm you. You gain half your level's resistance to piercing and
+      slashing damage, rounded down.</p>
     gm: ''
   publication:
     title: Calamity in Ouroboros
     authors: Rachel Fallis
     license: OGL
     remaster: true
-  rules: []
+  rules:
+    - key: Resistance
+      type:
+        - slashing
+        - piercing
+      value: max(1, floor(@actor.level / 2))
   slug: stone-skin
   traits:
     otherTags: []
@@ -36,6 +44,7 @@ system:
     senses: {}
     suppressedFeatures: []
   location: null
+  frequency: null
 img: systems/pf2e/icons/default-icons/feat.svg
 folder: null
 ownership:
@@ -46,12 +55,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.12.1
+  systemVersion: 8.0.1
   createdTime: 1775398914365
-  modifiedTime: 1775398914365
-  lastModifiedBy: KrftnXVuJhfBfXCD
+  modifiedTime: 1776127188262
+  lastModifiedBy: i8DbBUqZL9B2GzBN
 _id: ioFSJLheGOOh6q0u
 sort: 0
 _key: '!items!ioFSJLheGOOh6q0u'
